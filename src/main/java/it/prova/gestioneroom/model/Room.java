@@ -18,9 +18,8 @@ public class Room {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
-    @Column(name = "roomnumber")
-    private String roomnumber;
-
+    @Column(name = "name")
+    private String name;
     private Long idReservation;
 
 }
