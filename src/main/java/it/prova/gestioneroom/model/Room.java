@@ -20,6 +20,7 @@ public class Room {
     private Long id;
     @Column(name = "name")
     private String name;
+    @Column(name = "idreservation")
     private Long idReservation;
 
 }

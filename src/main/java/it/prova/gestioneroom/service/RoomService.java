@@ -10,9 +10,9 @@ public interface RoomService {
 
     public Room caricaSingoloRoom(Long id);
 
-    public Room aggiorna(Room clienteInstance);
+    public Room aggiorna(Room roomInstance);
 
-    public Room inserisciNuovo(Room clienteInstance);
+    public Room inserisciNuovo(Room roomInstance);
 
     public void rimuovi(Long idToRemove);
 }
